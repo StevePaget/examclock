@@ -14,19 +14,6 @@ class App(Tk):
         self.examfont = tkFont.Font(family = "Helvetica",size = 22)
 
         self.readTimes()
-        # self.exams.append(["Test", "23/05/2022 20:00:00", "23/5/2022 20:55:00"])
-        # self.exams.append(["Latin", "24/05/2022 09:55:00", "24/5/2022 10:55:00"])
-        # self.exams.append(["Computer Science", "24/05/2022 11:20:00", "24/5/2022 12:05:00"])
-        # self.exams.append(["French Listening", "24/05/2022 12:25:00", "24/5/2022 12:55:00"])
-        # self.exams.append(["Physics", "24/05/2022 14:55:00", "24/5/2022 15:55:00"])
-        # self.exams.append(["Maths", "25/05/2022 09:25:00", "25/5/2022 10:55:00"])
-        # self.exams.append(["History", "25/05/2022 11:40:00", "25/5/2022 12:55:00"])
-        # self.exams.append(["English", "25/05/2022 14:25:00", "25/5/2022 15:55:00"])
-        # self.exams.append(["Art", "26/05/2022 11:55:00", "26/5/2022 12:55:00"])
-        # self.exams.append(["Biology", "26/05/2022 14:55:00", "26/5/2022 15:55:00"])
-        # self.exams.append(["French Reading", "27/05/2022 09:45:00", "27/5/2022 10:10:00"])
-        # self.exams.append(["French Grammar", "27/05/2022 10:20:00", "27/5/2022 10:55:00"])
-
 
         self.columnconfigure(0,minsize=600)
         self.columnconfigure(1,minsize=700)
